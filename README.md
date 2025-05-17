@@ -11,7 +11,7 @@ This Streamlit app helps organisations assess their AI readiness, risk exposure,
 - Branded with Hello AI identity
 
 ## 🖥️ Demo
-Coming soon or [host on Streamlit Cloud](https://share.streamlit.io/)
+[host on Streamlit Cloud]([https://share.streamlit.io/](https://ai-impact-evaluation-4krjymuwmqnfex329oe4no.streamlit.app/))
 
 ## 🚀 How to Run
 1. Clone the repo  
@@ -42,4 +42,4 @@ Make sure the `logo.jpg` file is in the same folder.
 MIT
 
 ## 🤝 Contact
-Developed by [Your Name] | [LinkedIn] | [Email]
+Developed by [Farhad M & Naz E] | 
