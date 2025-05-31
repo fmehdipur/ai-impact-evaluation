@@ -5,10 +5,16 @@ import pandas as pd
 from io import BytesIO
 from datetime import datetime
 
+st.set_page_config(page_title="Nova – AI Impact Evaluation", layout="wide")
+
+
 # Load logo
 logo = Image.open("logo.jpg")
 st.image(logo, width=160)
-st.markdown("# Hello AI – AI Impact Evaluation App")
+
+# Update app name and subtitle
+st.markdown("# Nova – AI Impact Evaluation App")
+st.markdown("### Navigate your AI readiness with confidence.")
 
 # --- Form Inputs ---
 st.header("1. Organisation Profile")
