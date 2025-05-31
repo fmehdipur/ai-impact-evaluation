@@ -64,7 +64,7 @@ def generate_report():
     risk_flag = (integrity_risk == "No" or data_ethics == "No")
 
     report = f"""
-    <h2>AI Impact Evaluation Report – {org_name}</h2>
+    <h2>Nova AI Impact Evaluation Report – {org_name}</h2>
     <p><b>Date:</b> {today}</p>
     <h3>1. Organisation Snapshot</h3>
     <ul>
