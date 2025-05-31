@@ -5,10 +5,15 @@ import pandas as pd
 from io import BytesIO
 from datetime import datetime
 
+
 # Load logo
 logo = Image.open("logo.jpg")
 st.image(logo, width=160)
-st.markdown("# Hello AI – AI Impact Evaluation App")
+
+# Update app name and subtitle
+st.markdown("# Nova – AI Impact Evaluation App")
+st.markdown("### Navigate your AI readiness with confidence.")
+
 
 # --- Form Inputs ---
 st.header("1. Organisation Profile")
@@ -58,7 +63,7 @@ def generate_report():
     risk_flag = (integrity_risk == "No" or data_ethics == "No")
 
     report = f"""
-    <h2>AI Impact Evaluation Report – {org_name}</h2>
+    <h2>Nova AI Impact Evaluation Report – {org_name}</h2>
     <p><b>Date:</b> {today}</p>
     <h3>1. Organisation Snapshot</h3>
     <ul>
