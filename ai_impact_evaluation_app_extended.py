@@ -5,6 +5,8 @@ import pandas as pd
 from io import BytesIO
 from datetime import datetime
 
+st.set_page_config(page_title="Nova – AI Impact Evaluation", layout="wide")
+
 
 # Load logo
 logo = Image.open("logo.jpg")
